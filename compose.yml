@@ -12,6 +12,6 @@ services:
     volumes:
       - ./data:/config/.config/anytype
     ports:
-      - 3002:3000
-      - 3001:3001
+      - 3000:3000 #HTTP
+      - 3001:3001 #HTTPS
     restart: unless-stopped
