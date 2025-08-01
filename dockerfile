@@ -5,7 +5,8 @@ ARG BUILD_DATE
 ARG VERSION
 ARG ANYTYPE_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="distracted"
+LABEL maintainer="distractedcanuck"
+LABEL org.opencontainers.image.source="https://github.com/DistractedCanuck/anytype-docker"
 
 # title
 ENV TITLE=ANYTYPE 
