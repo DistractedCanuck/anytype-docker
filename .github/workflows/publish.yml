@@ -18,6 +18,6 @@ jobs:
 
     - name: Build the hello-world Docker image
       run: |
-        docker build . --tag ghcr.io/DistractedCanuck/Anytype-docker:latest
-        docker run ghcr.io/DistractedCanuck/Anytype-docker:latest
-        docker push ghcr.io/DistractedCanuck/Anytype-docker:latest
+        docker build . --tag ghcr.io/distractedcanuck/anytype-docker:latest
+        docker run ghcr.io/distractedcanuck/anytype-docker:latest
+        docker push ghcr.io/distractedcanuck/anytype-docker:latest
